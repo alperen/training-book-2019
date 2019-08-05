@@ -40,7 +40,7 @@ Eğer bir `null` tipindeki değişkenini kontrol ederseniz, `null` dönmesini be
 ```js
 const array = [1, 2, 3];
 const obj = {
-	key: "value",
+  key: "value",
 }
 typeof array; // object
 typeof obj; // object

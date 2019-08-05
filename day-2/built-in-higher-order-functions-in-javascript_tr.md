@@ -9,7 +9,7 @@ Bu fonksiyon, bir fonksiyondaki bütün elemanları dönen ve geriye bir değer 
 const ages = [10, 15, 25, 35];
 
 ages.forEach(function (age) {
-	console.log(age); // Puts the screen each age. Age is element of ages array.
+  console.log(age); // Puts the screen each age. Age is element of ages array.
 });
 ```
 
@@ -20,7 +20,7 @@ Bu fonksiyon, bir dizinin bütün elemanı döner, geriye bir değer bekler. Ger
 const ages = [10, 15, 25, 35];
 
 const birthYearsOfAge = ages.map(function(age) {
-	return 2019 - age;
+  return 2019 - age;
 });
 
 console.log(birthYearsOfAge); // Puts an array which contains 2009, 2004, 1994, 1984
@@ -35,7 +35,7 @@ Reduce fonksiyonu, akümülatör sahip bir fonksiyondur. Bütün elemanları dol
 const ages = [10, 15, 25, 35];
 
 const totalOfAges = ages.reduce(function(accumulator, age) {
-	return accumulator + age;
+  return accumulator + age;
 }, 0);
 
 console.log(totalOfAges); // Puts 85 on the screen.

@@ -13,12 +13,12 @@ Yeni bir obje tanımlamak için değişkene `{}` tanımlaması yapılabilir. Bu 
 
 ```js
 const user = {
-	name: "Alperen",
-	surname: "Turkoz",
-	age: 21,
-	getFullName: () => {
-		return `${this.name} ${this.surname}`
-	}
+  name: "Alperen",
+  surname: "Turkoz",
+  age: 21,
+  getFullName: () => {
+    return `${this.name} ${this.surname}`
+  }
 }
 ```
 Bu objenin key-value eşleşmesindeki key değerleri `property` (öznitelik) diye adlandırılır. Ve onlara iki yolla erişilebilir. `user[property]` veya `user.property` yollarını kullanarak. Ayrıca bir property fonksiyon ise `method` olarak adlandırılır. Metot fonksiyonları içinde yazılan `this` sözcüğü objectin kendisini referans eder. `this` sözcüğü Javascript'te skopa özel değiştirilir.
@@ -32,7 +32,7 @@ user.name = "Mahmut" // Alperen has changed into Mahmut
 Fakat değişken sabitti bu nasıl oldu?. Javascript'te sabitler yalnızca yeniden başka bir değere eşitlenemezler, öznitelikleri vs. değiştirilebilir. Bunu engellemek için `Object.freeze(object)` kullanırız, böylelikle nitelikleri de değiştirilemez. Örneğin:
 ```js
 const user = {
-	name: "Alperen"
+  name: "Alperen"
 }
 
 Object.freeze(user);
@@ -52,8 +52,8 @@ Javascript'te objeler bir işleme sokulduğunda, referanslarıyla birlikte işle
 
 ```js
 const first = {
-	name: "Alperen",
-	age: 21,
+  name: "Alperen",
+  age: 21,
 }
 const second = first;
 

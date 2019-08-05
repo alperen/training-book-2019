@@ -11,13 +11,13 @@ Standart fonksiyonlar, argüman olarak primitif veri tipleri alıp, bunları dö
 ```js
 
 function multipleWithTwo(number) {
-	console.log(number * 2);
+  console.log(number * 2);
 }
 
 function repeat(n, action) {
-	for(let i = 0; i < n; i++) {
-		action(n);
-	}
+  for(let i = 0; i < n; i++) {
+    action(n);
+  }
 }
 
 repeat(3, multipleWithTwo);
@@ -28,9 +28,9 @@ Bu örnekte, `n` bir sayıdır. Örneğin, 3 verildiğinde döngü 3 kere döner
 ### Geri Dönüş Değeri Olarak Bir Fonksiyon
 ```js
 function exponentFactory(base) {
-	return function(exponent) {
-		return Math.pow(base, exponent);
-	}
+  return function(exponent) {
+    return Math.pow(base, exponent);
+  }
 }
 
 const exponentsOfTwo = exponentFactory(2);
