@@ -28,7 +28,7 @@ const memoizedPower = memo(Math.pow);
 console.log(memoizedPower(15, 15)); // calculated
 console.log(memoizedPower(15, 15)); // from cache
 ```
-Memoized fonksiyonlar, parametresi aynı olsa bile sonucları farklı olan fonksiyonlarda kullanmalıdır. Örneğin REST API isteği gibi. Şimdi `memoized` fonksiyonun sonucu ne kadar sürede ürettiğine bakacak olursak, fonksiyonu ilk kez çalıştırdığımızda hesaplaması 0.51 ms sürerken, ikinci çalıştırmada bu süre 0.19 ms'e düştü.
+Memoized fonksiyonlar, aynı parametre icin aynı sonuçu veren `pure function` fonksiyonlar için geçerlidir. Örneğin REST API isteği gibi. Şimdi `memoized` fonksiyonun sonucu ne kadar sürede ürettiğine bakacak olursak, fonksiyonu ilk kez çalıştırdığımızda hesaplaması 0.51 ms sürerken, ikinci çalıştırmada bu süre 0.19 ms'e düştü.
 ```js
 console.time("calculate");
 console.log(memoizedPower(15, 15));
