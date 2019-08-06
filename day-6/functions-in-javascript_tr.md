@@ -46,3 +46,12 @@ const getInitalsOfString = str => {
 getInitalsOfString("Alperen Turkoz") // A T
 ```
 Arrow fonksiyonlar, `return` sözcüğüne ihtiyac duymadan direkt olarak döndürür. Terminolojik ismi `lambda expression`'dur.
+
+## Fonksiyonlardaki Varsayılan Değerler
+Fonksiyonlardaki argümanlara veya parametrelere isteğe bağlı olarak varsayılan değerler atayabiliriz. Atadığımız değerler, argüman `undefined` olduğunda çalışır. Bu varsayılan değerler, primitif değerler olduğu gibi bir fonksiyon dahi olabilir. Fakat bu fonksiyon `computed-value` döndürmelidir.
+```js
+function awesomeFunction(param1 = "Alperen", param2 = {age: 21}, param3 = anotherAwesomeFunction()) {
+  /// ... your function body
+}
+```
+Mantıken, varsayılan değere sahip parametreler en sona yazılmalıdır.
