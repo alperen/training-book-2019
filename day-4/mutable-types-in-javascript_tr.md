@@ -4,7 +4,8 @@ Bir önceki yazıda belirtilen primitif tipler dışında kalan her veri tipi Ja
 
 ## Sabit Değişkenler Tanımlamak
 
-Javascript'te sabit olarak adlandırılan değişkenlerin önüne `const` sözcüğü yazılarak tanımlanırlar. Örneğin
+Javascript'te sabit olarak adlandırılan değişkenlerin önüne `const` sözcüğü yazılarak tanımlanırlar. `const` sözcüğü, değişkeninizi değişmez yapar (`immutable`), sabit değil.
+Örneğin:
 
 ```js
 const isItRaining = false
