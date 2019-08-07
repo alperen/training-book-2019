@@ -16,8 +16,8 @@ Konsolda `logging` işleminde işleminde logunuzun tipini de `warning`, `info` v
 `console.table` ise eğer içine bir obje veya dizi verirseniz, bunu bir tablo haline getirerek ekrana basar.
 ```js
 console.table({
-	user: "Alperen",
-	age: 12
+  user: "Alperen",
+  age: 12
 })
 ```
 `console.count`, `console.time` fonksiyonları hata ayıklamayı kolaylaştırıcı console fonksiyonlarıdır, bu fonksiyonları çalıştırabilmek için bir etiket `label` ile çalıştırmak gerekir.
@@ -25,8 +25,8 @@ console.table({
 `console.count` fonksiyonu çalıştırıldığı her an kaçıncı defa çalıştırıldığını konsola yazar.
 ```js
 function myAwesomeFunction() {
-	console.count("myAwesomeFunctionCounter");
-	// ....
+  console.count("myAwesomeFunctionCounter");
+  // ....
 }
 myAwesomeFunction();
 myAwesomeFunction();
