@@ -1,5 +1,5 @@
-# Javascript'te Template Literal (Template Strings)
-Javascript'te stringleri tanımlanın üç yolu var, bunlar herkesin bildiği `"yourString"`, `'yourString'` ve ES6 standartlarıyla gelen yeni yol:
+# JavaScript'te Template Literal (Template Strings)
+JavaScript'te stringleri tanımlanın üç yolu var, bunlar herkesin bildiği `"yourString"`, `'yourString'` ve ES6 standartlarıyla gelen yeni yol:
 > ` `templateString` `
 
 Template stringler diğer string tanımlamalarına göre kaçış karakterlerine ihtiyac duymazlar içlerinde bir değişken veya fonksiyon gibi `computed-value` değerleri yorumlayabilir. Ayrıca `template-string` bir fonksiyona gönderilebilir.

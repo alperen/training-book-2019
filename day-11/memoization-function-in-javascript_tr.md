@@ -1,5 +1,5 @@
-# Javascript'te Memoization Fonksiyonu
-Memoization fonksiyonları, hesaplaması maliyetli fonksiyonların daha önceki çıktılarını hafızasında tutarak fonksiyon hesaplama süresini ve bellek maliyetini düşürür. Örneğin bir fonksiyon belirli bir parametre ile çalıştırıldıkan sonra tekrar aynı parametreler ile çalıştırılırsa, ikinci çalışmasında birincidekine göre daha hızlı tepki verir çünkü bu değerler önbelleğe alınmıştır. Şimdi bu `memoization` fonksiyonunu javascript ile yazacağım.
+# JavaScript'te Memoization Fonksiyonu
+Memoization fonksiyonları, hesaplaması maliyetli fonksiyonların daha önceki çıktılarını hafızasında tutarak fonksiyon hesaplama süresini ve bellek maliyetini düşürür. Örneğin bir fonksiyon belirli bir parametre ile çalıştırıldıkan sonra tekrar aynı parametreler ile çalıştırılırsa, ikinci çalışmasında birincidekine göre daha hızlı tepki verir çünkü bu değerler önbelleğe alınmıştır. Şimdi bu `memoization` fonksiyonunu JavaScript ile yazacağım.
 
 ```js
 function memo(func) {

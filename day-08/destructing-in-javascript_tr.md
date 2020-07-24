@@ -1,10 +1,10 @@
-# Javascript'te Yıkarak Eşitleme
-Yıkarak eşitleme `Destructuring Assignment`, Javascript'te bir arrayın elemanları veya bir objenin öznitelikleri için yapılan, bu verileri ayrık bir biçimde yazmamızı sağlayan bir sintakstır. ES6 ile gelen bir özelliktir.
+# JavaScript'te Yıkarak Eşitleme
+Yıkarak eşitleme `Destructuring Assignment`, JavaScript'te bir arrayın elemanları veya bir objenin öznitelikleri için yapılan, bu verileri ayrık bir biçimde yazmamızı sağlayan bir sintakstır. ES6 ile gelen bir özelliktir.
 
 ## Örnekler
 
 ### Bir diziyi yıkmak
-Eğer Javascript'te bu tip bir özellik olmasaydı ve bir dizinin ilk üç elemanını ayrık bir değişkene almak isteseydik şu şekilde yapardık:
+Eğer JavaScript'te bu tip bir özellik olmasaydı ve bir dizinin ilk üç elemanını ayrık bir değişkene almak isteseydik şu şekilde yapardık:
 ```js
 const numbers = [5, 6, 7, 8, 9, 10];
 const first = numbers[0]; // 5
@@ -24,7 +24,7 @@ Yukarıdaki örnekte yazıldığı gibi bir sintaksa sahipsek, eşitlemenin sol 
 const [first,,third,,sixth] = numbers;
 console.log(sixth); // 10
 ```
-Javascript'te bir veriyi yıkarken eğer yıktığınız veri `undefined` döndürüyorsa bu veriye bir varsayılan değer atayabilirsiniz.
+JavaScript'te bir veriyi yıkarken eğer yıktığınız veri `undefined` döndürüyorsa bu veriye bir varsayılan değer atayabilirsiniz.
 ```js
 const numbers = [2, undefined, 5];
 const [
@@ -37,10 +37,10 @@ console.log(second) // NOT_DEFINED
 console.log(third) // 5
 console.log(fourth) // NOT_DEFINED
 ```
-Bu örnekte üç elemanlı dizinin ikinci elemanı var fakat `undefined` döndürmüş. `undefined` döndürebileceği düşünülen her yıkım değişkenine varsayılan bir değer atanabilir. Aynı zamanda üç elemanlı bir dizide dördüncü elemanı okumaya çalıştık. Bu javascript'te `undefined` döndürmeye sebep olur. Yalnızca yıkılan değişken `undefined` ise ona bir varsayılan değer atayabiliriz. `null` değişkenler, tanımlıdır ama içleri boştur.
+Bu örnekte üç elemanlı dizinin ikinci elemanı var fakat `undefined` döndürmüş. `undefined` döndürebileceği düşünülen her yıkım değişkenine varsayılan bir değer atanabilir. Aynı zamanda üç elemanlı bir dizide dördüncü elemanı okumaya çalıştık. Bu JavaScript'te `undefined` döndürmeye sebep olur. Yalnızca yıkılan değişken `undefined` ise ona bir varsayılan değer atayabiliriz. `null` değişkenler, tanımlıdır ama içleri boştur.
 
 ### Swap İşlemi
-İki değişkenin değerlerini birbiri ile değiştirmek için yapılan işleme `swap` işlemi denir. Bu işlemi yapabilmek için üçüncü bir değişkene de ihtiyac vardır. Fakat Javascript'te buna ihtiyaç duymazsınız, destructing işlemi ile bunu çözebilirsiniz.
+İki değişkenin değerlerini birbiri ile değiştirmek için yapılan işleme `swap` işlemi denir. Bu işlemi yapabilmek için üçüncü bir değişkene de ihtiyac vardır. Fakat JavaScript'te buna ihtiyaç duymazsınız, destructing işlemi ile bunu çözebilirsiniz.
 Destructing olmadan:
 
 ```js
@@ -103,7 +103,7 @@ console.log(remainingNumbers) // [7, 8, 9, 10]
 `Resting` işlemi `...` sintaksı ile yapılıyor. Arda kalan sayılar `remainingNumbers`, `first` ve `second` değişkenin değerlerini içermiyor. Aynı zamanda objeler de rest işlemine tutulabilir
 
 ### Shorthand Yöntemi İle Obje Tanımlamak
-Javascript'te değişkenlerinizi kullanarak objeler yaratabilirsiniz. Eğer değişkenlerinizin adları ile objenizdeki anahtar `key` değerleri aynı olacaksa bunlara, bir değer `value` belirtmeniz gerekmez. Buna `Shorthand` yöntemi denir. Örneğin eğer bu yöntem olmasaydı:
+JavaScript'te değişkenlerinizi kullanarak objeler yaratabilirsiniz. Eğer değişkenlerinizin adları ile objenizdeki anahtar `key` değerleri aynı olacaksa bunlara, bir değer `value` belirtmeniz gerekmez. Buna `Shorthand` yöntemi denir. Örneğin eğer bu yöntem olmasaydı:
 
 ```js
 const name = "Alperen";

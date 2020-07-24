@@ -1,5 +1,5 @@
-# Javascript'teki Veri Tipleri
-Diğer dillere nazaran Javascript'te değişkenlerin değil değişken değerlerinin bir veri türü vardır. Eğer değişkeniniz, `let` veya `var` sözcüğü ile tanımlandıysa, değişken verisini değiştirdiğinizde türünü de değiştirirsiniz. Bu yüzden tip zorlaması yoktur. Javascripte primitif tipler:
+# JavaScript'teki Veri Tipleri
+Diğer dillere nazaran JavaScript'te değişkenlerin değil değişken değerlerinin bir veri türü vardır. Eğer değişkeniniz, `let` veya `var` sözcüğü ile tanımlandıysa, değişken verisini değiştirdiğinizde türünü de değiştirirsiniz. Bu yüzden tip zorlaması yoktur. JavaScripte primitif tipler:
 
 * Boolean (True / False)
 * Null		(Boş)
@@ -21,7 +21,7 @@ const v5 = 15
 const v6 = new Symbol("Symbols are complex to describe")
 ```
 
-Javascript'te `typeof [value]` fonksiyonu, kendisine verilen değeri string olarak döndürür. Örneğin `typeof [a-variable]` yazdığınızda, değişkenin değerini ölçer, değişkenlerin tipi yoktur. Yalnızca değerlerin tipi vardır. Yine aynı şekilde bir değerin de tipini öğrenebilirsiniz: `typeof [value]`
+JavaScript'te `typeof [value]` fonksiyonu, kendisine verilen değeri string olarak döndürür. Örneğin `typeof [a-variable]` yazdığınızda, değişkenin değerini ölçer, değişkenlerin tipi yoktur. Yalnızca değerlerin tipi vardır. Yine aynı şekilde bir değerin de tipini öğrenebilirsiniz: `typeof [value]`
 
 ```js
 typeof v1; // returns "string" as string
@@ -33,9 +33,9 @@ typeof null // returns "object"
 
 if (typeof v1 === "string") // This query is valid
 ```
-Diziler, objeler, sınıflar javascript'te bir objedir. Ayrıca her bir primitif tip için bir obje oluşturabilir.
+Diziler, objeler, sınıflar JavaScript'te bir objedir. Ayrıca her bir primitif tip için bir obje oluşturabilir.
 
-Eğer bir `null` tipindeki değişkenini kontrol ederseniz, `null` dönmesini beklerken `object` döndüğünü görürsünüz. Bu bir javascript bug'udur.
+Eğer bir `null` tipindeki değişkenini kontrol ederseniz, `null` dönmesini beklerken `object` döndüğünü görürsünüz. Bu bir JavaScript bug'udur.
 
 ```js
 const array = [1, 2, 3];

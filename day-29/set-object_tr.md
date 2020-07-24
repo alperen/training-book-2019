@@ -1,5 +1,5 @@
 # Set Objesi
-Set objesi aynı diziler gibi çalışan bir Javascript global objesidir. Set objelerinin matematiksel karşılığı kümelerdir. Set objesi her türlü veriyi, primitif tipleri, obje referanslarını içerisinde tutabilir. Dizilerden farkı, bir nesne en fazla bir kere tekrar edebilir.
+Set objesi aynı diziler gibi çalışan bir JavaScript global objesidir. Set objelerinin matematiksel karşılığı kümelerdir. Set objesi her türlü veriyi, primitif tipleri, obje referanslarını içerisinde tutabilir. Dizilerden farkı, bir nesne en fazla bir kere tekrar edebilir.
 
 Bir set oluşturmak ve ona elemanlar eklemek:
 ```js

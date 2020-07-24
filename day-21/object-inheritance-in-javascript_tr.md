@@ -1,5 +1,5 @@
-# Javascript'te Obje Kalıtımı
-Javascript'te bir objeden diğer bir objeye `inheritance` yani kalıtım yapmak için objelerin prototiplerini birbirine eşitleriz. Örneğin, `Bird` objesini, `Animal` objesinden kalıtalım. Javascript'te bir objenin prototip verisini `reassign` ederken, `constructor` propertisini bizim `constructor function`'ımıza eşitlemeliyiz.
+# JavaScript'te Obje Kalıtımı
+JavaScript'te bir objeden diğer bir objeye `inheritance` yani kalıtım yapmak için objelerin prototiplerini birbirine eşitleriz. Örneğin, `Bird` objesini, `Animal` objesinden kalıtalım. JavaScript'te bir objenin prototip verisini `reassign` ederken, `constructor` propertisini bizim `constructor function`'ımıza eşitlemeliyiz.
 
 ```js
 function Animal{}

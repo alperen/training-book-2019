@@ -1,5 +1,5 @@
 # Eşitlik ve Denklik
-Javascript'te iki veriyi karşılaştırmak için iki yol vardır. Birincisi, tip çevirmeli karşılaştırma `The Abstract Equality Comparison Algorithm` (`==`) ikincisi, strict (`===`, katı) tam benzerlik içerik karşılaştırması. Katı karşılaştırma, verilerin aynı içeriye ve aynı objeden üretildiği zaman `true` döndürür. Tip çevirmeli karşılaştırmada ise verilerin içeriklerin eşit olması yeterlidir. Tip çevirmeli karşılaştırma veri türlerini karşılaştırma esnasında aynı türe getirir. Aşağıdaki örneklerden hepsi `true` değeri döndürür:
+JavaScript'te iki veriyi karşılaştırmak için iki yol vardır. Birincisi, tip çevirmeli karşılaştırma `The Abstract Equality Comparison Algorithm` (`==`) ikincisi, strict (`===`, katı) tam benzerlik içerik karşılaştırması. Katı karşılaştırma, verilerin aynı içeriye ve aynı objeden üretildiği zaman `true` döndürür. Tip çevirmeli karşılaştırmada ise verilerin içeriklerin eşit olması yeterlidir. Tip çevirmeli karşılaştırma veri türlerini karşılaştırma esnasında aynı türe getirir. Aşağıdaki örneklerden hepsi `true` değeri döndürür:
 ```js
 console.log(1 == 1);
 console.log("1" == 1);
