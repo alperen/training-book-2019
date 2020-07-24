@@ -1,5 +1,5 @@
-# Javascript'te Küme İşlemleri
-Javascript'te Set objesini kullanarak iki küme arasındaki bazı işlemleri yapan fonksiyonları bu şekilde tanımlayabiliriz, örnek kümelerimiz bunlar olsun:
+# JavaScript'te Küme İşlemleri
+JavaScript'te Set objesini kullanarak iki küme arasındaki bazı işlemleri yapan fonksiyonları bu şekilde tanımlayabiliriz, örnek kümelerimiz bunlar olsun:
 
 ```js
 var setA = new Set([1, 2, 3, 4]),

@@ -1,10 +1,10 @@
-# Javascript'teki Değişebilir Veri Tipleri
-Bir önceki yazıda belirtilen primitif tipler dışında kalan her veri tipi Javascript'te bir
+# JavaScript'teki Değişebilir Veri Tipleri
+Bir önceki yazıda belirtilen primitif tipler dışında kalan her veri tipi JavaScript'te bir
 `object`'ten türer. Fonksiyonlar, Objeler, Diziler bunlardan en çok kullanılanlarıdır.
 
 ## Sabit Değişkenler Tanımlamak
 
-Javascript'te sabit olarak adlandırılan değişkenlerin önüne `const` sözcüğü yazılarak tanımlanırlar. `const` sözcüğü, değişkeninizi değişmez yapar (`immutable`), sabit değil.
+JavaScript'te sabit olarak adlandırılan değişkenlerin önüne `const` sözcüğü yazılarak tanımlanırlar. `const` sözcüğü, değişkeninizi değişmez yapar (`immutable`), sabit değil.
 Örneğin:
 
 ```js
@@ -33,7 +33,7 @@ person = {
 ```js
 const exampleArray = [2, true, "Hello"];
 ```
-Diziler, birden fazla veriyi tek bir değişkende tutmamıza yardımcı olur, görülebileceği üzere javascript'te bir dizi içerisinde farklı tipte veriler tutulabilir. Bu yüzden bir kısıtlama yoktur.
+Diziler, birden fazla veriyi tek bir değişkende tutmamıza yardımcı olur, görülebileceği üzere JavaScript'te bir dizi içerisinde farklı tipte veriler tutulabilir. Bu yüzden bir kısıtlama yoktur.
 
 ```js
 typeof exampleArray === "object" // true
@@ -62,4 +62,4 @@ const arr = new Array(arraySize);
 ....
 new Object()
 ```
-Javascript'te `contructor` ile başlatmak için `new` sözcüğü kullanılır. Fakat bu yöntem tavsiye edilmez çünkü performansızdır. Örneğin, bir fonksiyonu `constructor` ile başlattığınızda, fonksiyonunuzu her çalıştırdığınızda, fonksiyonunuzun içeriği her defasında yeniden yorumlanır.
+JavaScript'te `contructor` ile başlatmak için `new` sözcüğü kullanılır. Fakat bu yöntem tavsiye edilmez çünkü performansızdır. Örneğin, bir fonksiyonu `constructor` ile başlattığınızda, fonksiyonunuzu her çalıştırdığınızda, fonksiyonunuzun içeriği her defasında yeniden yorumlanır.

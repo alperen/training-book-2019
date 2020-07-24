@@ -1,5 +1,5 @@
-# Javascript'te Constructor Function
-Javascript'teki `Contructor Function`'lar bir obje üreten, sınıflara benzeyen fonksiyonlardır. Temelde Javascript, sınıf gibi OOP yapılarıın desteklemez. Yazacagınız sınıflar, objelere dönüştürülür. OOP temelde bir tasarım anlayışıdır. Bu tasarımları Javascript'te objeler üzerinde çok açıkça tasarlayabilrisiniz. `Constructor` fonksiyonların adlandırılması `PascalCase` iledir. Bu fonksiyonlar, `new` sözcüğü ile başlatılır, içinde `this` sözcüğü kullanılabilir. `this` sözcüğü o anda oluşturulmuş objeyi referans eder. Örneğin:
+# JavaScript'te Constructor Function
+JavaScript'teki `Contructor Function`'lar bir obje üreten, sınıflara benzeyen fonksiyonlardır. Temelde JavaScript, sınıf gibi OOP yapılarıın desteklemez. Yazacagınız sınıflar, objelere dönüştürülür. OOP temelde bir tasarım anlayışıdır. Bu tasarımları JavaScript'te objeler üzerinde çok açıkça tasarlayabilrisiniz. `Constructor` fonksiyonların adlandırılması `PascalCase` iledir. Bu fonksiyonlar, `new` sözcüğü ile başlatılır, içinde `this` sözcüğü kullanılabilir. `this` sözcüğü o anda oluşturulmuş objeyi referans eder. Örneğin:
 
 ```js
 function Dog() {

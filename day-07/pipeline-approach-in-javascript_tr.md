@@ -1,5 +1,5 @@
-# Javascript Pipe Line Yaklaşımı
-Pipe line yaklaşımı, fonksiyonel programada kullanılan popüler bir yaklışımdır. Bu yaklaşım, bir verinin bir düzende birden fazla fonksiyonu dolaşması gerektiğinde kullanılır. Bir yazılım mimarisi olup kodun okunuşunu geliştirir. Aslında Javascript'in yeni versiyonlarında pipe-line modeli desteklenmektir fakat bunu javascript ile  kendim tasarlayacağım:
+# JavaScript Pipe Line Yaklaşımı
+Pipe line yaklaşımı, fonksiyonel programada kullanılan popüler bir yaklışımdır. Bu yaklaşım, bir verinin bir düzende birden fazla fonksiyonu dolaşması gerektiğinde kullanılır. Bir yazılım mimarisi olup kodun okunuşunu geliştirir. Aslında JavaScript'in yeni versiyonlarında pipe-line modeli desteklenmektir fakat bunu JavaScript ile  kendim tasarlayacağım:
 
 Örneğin problemimiz bir dizindeki elemanlar için hakkında bu kurallar olsun:
 * Elemanlar pozitif olmalı
@@ -53,4 +53,4 @@ const newNumbers = pipe([
 ])(numbers) // [74088, 64, 46656, 21952]
 ```
 
-Bu yaklaşımda, görev sıram ile fonksiyon sıram aynı, diğerindeki düzlük bana güçlük çıkarabilirdi. Yukarıda fonksiyondaları çalıştırmadan direkt olarak isimleriyle gönderdim, aslında `pipe` fonksiyonu, yüksek mertebeli fonksiyonlar için çok iyi ve kapsayıcı bir örnek. Javascript'te fonksiyonlar, diziler, objeler bir başka yere referansla taşınırlar çünkü bu tipler primitif değildir.
+Bu yaklaşımda, görev sıram ile fonksiyon sıram aynı, diğerindeki düzlük bana güçlük çıkarabilirdi. Yukarıda fonksiyondaları çalıştırmadan direkt olarak isimleriyle gönderdim, aslında `pipe` fonksiyonu, yüksek mertebeli fonksiyonlar için çok iyi ve kapsayıcı bir örnek. JavaScript'te fonksiyonlar, diziler, objeler bir başka yere referansla taşınırlar çünkü bu tipler primitif değildir.

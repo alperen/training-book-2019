@@ -1,4 +1,4 @@
-# Javascript'te Pure Fonksiyonlar Tanımlamak
+# JavaScript'te Pure Fonksiyonlar Tanımlamak
 Pure fonksiyonlar, aynı argümanlarla çalıştırıldığı taktirde sürekli aynı sonucu döndüren, deterministik yani aynı girdiler için farklı sonuçlar üretmeyen fonksiyonlardır. Pure fonksiyonlar üzerinde `side-effect` denilen fonksiyonlar kullanılmaz. Örneğin, pure fonksiyon üzerinde tarih-saat işlemi yapılmaz, girdi-çıktı işlemi yapılmaz, rastgele değer üretimi yapılmaz veya bir `API`'ye istek atılmaz. Çünkü `side-effect`ler fonksiyonun, deterministiğini bozar.
 
 Örneğin:

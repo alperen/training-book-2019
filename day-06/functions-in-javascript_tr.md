@@ -1,11 +1,11 @@
-# Javascript'te Fonksiyonlar
+# JavaScript'te Fonksiyonlar
 Matematiksel olarak fonksiyonlar, bir kümedeki `x` değerini başka bir kümedeki `y` değerine eşler ve `y = f(x)` şeklinde gösterilir. Programlama da ise, fonksiyon, belirli bir işi yapmaya özelleştirilmiş kod parçacıklarıdır. Fonksiyonlar bir veya birden fazla kez çalıştırlabilirler.
 
 ## Function ve Procedure
 Prosedürler, fonksiyonlar gibi belirli bir işi yapmak için özelliştirilmişlerdir fakat bir argüman almak zorunda değillerdir. Aynı zamanda bir değer de döndürmeyebilirler. Kendisine belirtilmiş bir görevi yapar ve durur. Fakat fonksiyonların bir girdisi ve çıktısı kesinlikle olmalıdır. Yeni bir şeyler üretmelidir.
 
 ## Fonksiyon Tanımlamak
-Javascripte fonksiyonlar `first-citizen-function` özelliğine sahiptir. Bir isme sahip olabildikleri gibi, anonim de olabilirler.
+JavaScripte fonksiyonlar `first-citizen-function` özelliğine sahiptir. Bir isme sahip olabildikleri gibi, anonim de olabilirler.
 
 ```js
 function calculateBirthYear(age) {

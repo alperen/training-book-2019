@@ -1,5 +1,5 @@
-# Javascript'te Ön Tanımlı Gelen Yüksek Mertebeli Fonksiyonlar
-Javascript dili ile birlikte gelen bazı yüksek mertebeli fonksiyonlar: `forEach`, `map` ve `reduce` fonksiyonlarıdır. Bu fonksiyonların hepsi array'ler üzerinde çalışır.
+# JavaScript'te Ön Tanımlı Gelen Yüksek Mertebeli Fonksiyonlar
+JavaScript dili ile birlikte gelen bazı yüksek mertebeli fonksiyonlar: `forEach`, `map` ve `reduce` fonksiyonlarıdır. Bu fonksiyonların hepsi array'ler üzerinde çalışır.
 
 ## forEach fonksiyonu
 Bu fonksiyon, bir fonksiyondaki bütün elemanları dönen ve geriye bir değer döndürmeyen fonksiyondur.

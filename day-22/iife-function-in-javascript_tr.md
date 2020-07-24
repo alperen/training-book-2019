@@ -1,4 +1,4 @@
-# Javascript'te IIFE Fonksiyonlar
+# JavaScript'te IIFE Fonksiyonlar
 Tanılandığı anda çalıştırılan fonkiyonlar diye tanımlayabileceğimiz fonksiyonlar, `IIFE` (`Immediately Invoked Function Expression`) kısaltması ile anılıyor. Bu fonksiyonların gövdeleri yazıldıktan hemen sonra çalıştırılmaya başlanır. Bir tür anonim fonkiyondur ve dışarıdaki bir skop içerideki bu fonksiyona erişemez. (Eğer erişilmeye çalışan şey `return` edilmiyorsa.)
 
 Kendi kendini çalıştıran anonim fonksiyon olarak da anılır. İki önemli kısımdan oluşur. Birinci kısımda ihtiyacımız olan fonksiyon `()` parantezleriyle sarılır. İkincisindeyse, bu fonksiyon derhal `immediately` çalıştırılır.

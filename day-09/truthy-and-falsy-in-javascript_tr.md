@@ -1,6 +1,6 @@
-# Javascript'te doğruluk ve yanlışlık
-Javascript'teki veri türleri eğer bir `if` koşuluna yazılırsa `Boolean` bağlamına zorlanır.`Type Coercion`. Aşağıdaki bilgileri kullanarak daha açıklayıcı kodlar yazabiliriz:
-## Javascript'te doğruluk
+# JavaScript'te doğruluk ve yanlışlık
+JavaScript'teki veri türleri eğer bir `if` koşuluna yazılırsa `Boolean` bağlamına zorlanır.`Type Coercion`. Aşağıdaki bilgileri kullanarak daha açıklayıcı kodlar yazabiliriz:
+## JavaScript'te doğruluk
 Aşağıdaki veri tipleri eğer bir `if` koşuluna sokulursa `true` değeri döndürürler.
 ```js
 if (true)
@@ -17,7 +17,7 @@ if (-3.14)
 if (Infinity)
 if (-Infinity)
 ```
-## Javascript'te yanlışlık
+## JavaScript'te yanlışlık
 Aşağıdaki veri tipleri eğer bir `if` koşuluna sokulursa `false` değeri döndürürler.
 ```js
 if (false)
@@ -32,7 +32,7 @@ if (``)
 if (document.all)
 ```
 ## Doğruluk ve Yanlışlığı Kullanarak Obje Ataması Yapmak
-Javascript'te mantıksal `&&` ve `||` operatörlerini kullanarak, veriyi manupüle edebiliriz örneğin:
+JavaScript'te mantıksal `&&` ve `||` operatörlerini kullanarak, veriyi manupüle edebiliriz örneğin:
 ```js
 const user = {
   age: 21

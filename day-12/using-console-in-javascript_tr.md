@@ -1,5 +1,5 @@
-# Javascript'te Console Sınıfını Kullanmak
-Javascript'te Console objesi, kullanıcılara daha kolay hata ayıklama yapabilmek için (`debugging`) çeşitli fonksiyonlar sunar. Bu fonksiyonlar, tarayıcının geliştiri araçlarındakı `Console` kısmına yazılırken, eğer `Node.js` gibi bir yazılımla Javascript kodlarınızı çalıştırıyorsanız bu çıktıları terminalinizde görürsünüz. Temelde bir web sitesi üzerinde geliştirme yapmaya yarayan Javascript'in Console objesi kullanıcı için vazgeçilmedir.
+# JavaScript'te Console Sınıfını Kullanmak
+JavaScript'te Console objesi, kullanıcılara daha kolay hata ayıklama yapabilmek için (`debugging`) çeşitli fonksiyonlar sunar. Bu fonksiyonlar, tarayıcının geliştiri araçlarındakı `Console` kısmına yazılırken, eğer `Node.js` gibi bir yazılımla JavaScript kodlarınızı çalıştırıyorsanız bu çıktıları terminalinizde görürsünüz. Temelde bir web sitesi üzerinde geliştirme yapmaya yarayan JavaScript'in Console objesi kullanıcı için vazgeçilmedir.
 ## Örnekler
 Temelde, `Console` sekmemize bir veriyi yazdırmak istediğimizde `log` fonksiyonunu kullanırız. Console sınıfının `logging` fonksiyonları içerisinde aynı anda birden fazla veri yazılabilir, her türlü veri türü yer alabilir.
 ```js
